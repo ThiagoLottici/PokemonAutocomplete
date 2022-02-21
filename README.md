@@ -1,6 +1,21 @@
-# Getting Started with Create React App
+# Pokemon Finder
+
+An autocomplete for pokemon! Start typing in the input to see results from the pokeAPI.
+You can type the full name or click in one of the suggestions from the list to see the picutre of the pokemon!
+
+# Getting Started
+
+Run 'npm install' in the root of the project to install the dependencies. The only third library I used was msw to mock
+API requests in the unit tests.
+
+I used node version 17.x.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+The project is divided in 3 main folders: components, pages, types.
+
+All tests are in the App.test.tsx, one thing to improve might be break down the tests to each specific component, this way it's easier to test/track
+each functionality.
 
 ## Available Scripts
 
@@ -18,26 +33,6 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
 
