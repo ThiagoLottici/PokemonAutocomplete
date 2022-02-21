@@ -1,0 +1,8 @@
+.PokemonDetails .name {
+  font-size: 60px;
+}
+
+.PokemonDetails .image {
+  width: 300px;
+  height: 300px;
+}
