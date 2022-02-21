@@ -1,0 +1,14 @@
+.PokeAutocomplete {
+  margin: 0 auto;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+
+.PokeAutocomplete .pokemon-details {
+  height: 400px;
+}
+
+.PokeAutocomplete .autocomplete-input {
+  display: flex;
+  justify-content: center;
+}

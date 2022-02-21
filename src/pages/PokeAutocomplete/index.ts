@@ -1,0 +1,1 @@
+export { PokeAutocomplete } from './PokeAutocomplete'; 
